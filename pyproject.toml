@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=40.2.0,<64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [tool.black]
 # File filtering is taken care of in pre-commit.
 line-length = 100
